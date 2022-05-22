@@ -12,7 +12,8 @@ body,
 
 body {
    font-family: sans-serif;
-   background-color: #f9fbfd;
+   background-image: url("../images/matrix-wp.jpg");
+   background-size: cover;
 }
 
 .wrapper {
@@ -25,15 +26,21 @@ header {
    text-align: center;
    padding: 20px;
    padding-top: 0px;
-   color: hsl(206, 17%, 28%);
+}
+
+header h1 {
+   font-size: 75px;
+   color: hsl(206, 41%, 93%);
 }
 
 .card {
-   background-color: hsl(0, 0%, 100%);
+   background-image: url("../images/code-bg.jpg");
+   background-size: cover;
+   background-position: center;
    border-radius: 5px;
    border-width: 1px;
    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-   color: hsl(206, 17%, 28%);
+   color: hsl(180, 18%, 90%);
    font-size: 18px;
    margin: 0 auto;
    max-width: 800px;
