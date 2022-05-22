@@ -38,6 +38,11 @@ header {
    margin: 0 auto;
    max-width: 800px;
    padding: 30px 40px;
+   display: flex;
+}
+
+.card-header h2 {
+   text-align: center;
 }
 
 .card-header::after {
@@ -52,9 +57,18 @@ header {
    text-align: center;
 }
 
+.flex-body {
+   flex-direction: column;
+}
+
+.card-footer {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
 .card-footer::before {
    content: " ";
-   display: block;
    width: 100%;
    background: #e7e9eb;
    height: 2px; 
@@ -62,7 +76,6 @@ header {
 
 .card-footer::after {
    content: " ";
-   display: block;
    clear: both;
 }
 
@@ -72,12 +85,10 @@ header {
    border-radius: 25px;
    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
    color: hsl(0, 0%, 100%);
-   display: inline-block;
    font-size: 22px;
    line-height: 22px;
    margin: 16px 16px 16px 20px;
    padding: 14px 34px;
-   text-align: center;
    cursor: pointer;
 }
 
@@ -124,7 +135,4 @@ button[disabled] {
    .btn {
       font-size: 0.8rem;
    }
-}
-
-   
 }
